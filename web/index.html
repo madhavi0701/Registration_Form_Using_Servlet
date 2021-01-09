@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <h1> MY FORM</h1>
+            <form action="RegisterServlet" method="post">
+                <table>
+                    <tr>
+                        <td>Enter ur name:</td>
+                        <td><input type="text" name="uname" placeholder="enter here"/></td>
+                    </tr>
+                    <tr>
+                        <td>Enter ur password:</td>
+                        <td><input type="password" name="pass" placeholder="enter here"/></td>
+                    </tr>
+                    <tr>
+                        <td>Enter ur email:</td>
+                        <td><input type="email" name="email" placeholder="enter here"/></td>
+                    </tr>
+                    <tr>
+                        <td>Select gender</td>
+                        <td><input type="radio" name="gen" value="female">Female &nbsp; &nbsp;<input type="radio" name="gen" value="male">Male</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            select your course
+                        </td>
+                        <td>
+                            <select name="course">
+                                <option value="java">Java</option>
+                                <option value="c">C</option>
+                                <option value="cpp">Cpp</option>
+                                <option value="sql">SQL</option>
+                            </select>
+                        </td>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <button type="submit">Register</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
+ 
